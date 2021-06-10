@@ -1,3 +1,5 @@
+https://hexo.io/docs/
+
 -------写博客-------
 hexo new '文章标题'
 //本地看一下
@@ -12,3 +14,8 @@ hexo g -d
 hexo new draft "文章标题"
 //生成后会在 /source/_drafts 里看到你的草稿文章
 hexo publish [layout] <filename>
+
+------关于分支管理------
+当使用blog分支：
+使用hexo操作会自动push到远程的master分支
+使用git push 保存到会自动push到远程的blog
