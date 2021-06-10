@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14d2adda-47de-406e-bbec-d93359339fd1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/source/CNAME" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/themes/3-hexo/source/img/avatar.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readme" beforeDir="false" afterPath="$PROJECT_DIR$/Readme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/post.md" beforeDir="false" afterPath="$PROJECT_DIR$/scaffolds/post.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/分享.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/3-hexo" beforeDir="false" afterPath="$PROJECT_DIR$/themes/3-hexo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/3-hexo/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/3-hexo/_config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/3-hexo/layout/indexs.md" beforeDir="false" afterPath="$PROJECT_DIR$/themes/3-hexo/layout/indexs.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/3-hexo/source/img/avatar.jpg" beforeDir="false" />
@@ -20,7 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/themes/3-hexo" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1tjmjDsEW98cty6lt0JgstFrZuO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
