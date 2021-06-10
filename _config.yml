@@ -102,4 +102,6 @@ theme: 3-hexo
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/yuliuyuan/yuliuyuan.github.io
+

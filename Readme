@@ -1,0 +1,14 @@
+-------写博客-------
+hexo new '文章标题'
+//本地看一下
+hexo g
+hexo s
+//上传
+hexo clean
+hexo g -d
+
+
+------生成草稿-------
+hexo new draft "文章标题"
+//生成后会在 /source/_drafts 里看到你的草稿文章
+hexo publish [layout] <filename>
