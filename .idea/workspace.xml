@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="14d2adda-47de-406e-bbec-d93359339fd1" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/themes/3-hexo/source/img/avatar.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/3-hexo/source/img/bg.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/分享.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/3-hexo" beforeDir="false" afterPath="$PROJECT_DIR$/themes/3-hexo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/3-hexo/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/3-hexo/_config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/3-hexo/layout/indexs.md" beforeDir="false" afterPath="$PROJECT_DIR$/themes/3-hexo/layout/indexs.md" afterDir="false" />
@@ -47,6 +47,8 @@
       <updated>1623291005828</updated>
       <workItem from="1623291006917" duration="4667000" />
       <workItem from="1623314346435" duration="195000" />
+      <workItem from="1624428785753" duration="1002000" />
+      <workItem from="1624599992957" duration="3294000" />
     </task>
     <servers />
   </component>
@@ -63,5 +65,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
