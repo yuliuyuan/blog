@@ -2,9 +2,9 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>about | Hexo</title>
-  <meta name="keywords" content="">
-  <meta name="description" content="about | Hexo">
+  <title>《Flutter实战》笔记一 | Hexo</title>
+  <meta name="keywords" content=" Flutter ">
+  <meta name="description" content="《Flutter实战》笔记一 | Hexo">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name="description" content="hi 爱地球的yly">
 <meta property="og:type" content="website">
@@ -262,24 +262,39 @@
 </aside>
 <div id="post">
     <div class="pjax">
-        <article id="page-" class="article article-type-page" itemscope itemprop="blogPost">
+        <article id="post-《Flutter实战》笔记一" class="article article-type-post" itemscope itemprop="blogPost">
     
-        <h1 class="article-title">about</h1>
+        <h1 class="article-title">《Flutter实战》笔记一</h1>
     
     <div class="article-meta">
         
         
         
+        <span class="book">
+            <i class="iconfont icon-category"></i>
+            
+            
+            <a  data-rel="技术">技术</a>
+            
+        </span>
+        
+        
+        <span class="tag">
+            <i class="iconfont icon-tag"></i>
+            
+            <a class="color3">Flutter</a>
+            
+        </span>
         
     </div>
     <div class="article-meta">
         
-            Created At : <time class="date" title='Updated At: 2021-06-10 20:11:34'>2021-06-10 20:09</time>
+            Created At : <time class="date" title='Updated At: 2021-06-25 15:45:30'>2021-06-25 13:47</time>
         
     </div>
     <div class="article-meta">
         
-        <span>Count:6</span>
+        <span>Count:1.4k</span>
         
         
         <span id="busuanzi_container_page_pv">
@@ -309,7 +324,7 @@
     
     <div class="toc-ref">
     
-        
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%80%EF%BC%9A%E7%A7%BB%E5%8A%A8%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF%E7%AE%80%E4%BB%8B"><span class="toc-text">一：移动开发技术简介</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E5%8E%9F%E7%94%9F"><span class="toc-text">1. 原生</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E8%B7%A8%E5%B9%B3%E5%8F%B0%E4%B9%8BHybrid%E3%80%81JavaScript-%E5%8E%9F%E7%94%9F%E6%B8%B2%E6%9F%93"><span class="toc-text">2. 跨平台之Hybrid、JavaScript+原生渲染</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-QT%E3%80%81Flutter"><span class="toc-text">3. QT、Flutter</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BA%8C%EF%BC%9A-%E5%85%B3%E4%BA%8EFlutter"><span class="toc-text">二： 关于Flutter</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E4%B8%A4%E4%B8%AA%E6%A6%82%E5%BF%B5JIT%E3%80%81AOT"><span class="toc-text">1.两个概念JIT、AOT</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E4%BB%8B%E7%BB%8D"><span class="toc-text">2.介绍</span></a></li></ol></li></ol>
     
 <style>
     .left-col .switch-btn,
@@ -325,7 +340,20 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>hi 爱地球的yly</p>
+        <h1 id="一：移动开发技术简介"><a href="#一：移动开发技术简介" class="headerlink" title="一：移动开发技术简介"></a>一：移动开发技术简介</h1><h2 id="1-原生"><a href="#1-原生" class="headerlink" title="1. 原生"></a>1. 原生</h2><p>原生应用程序是指某一个移动平台（比如iOS或安卓）所特有的应用，使用相应平台支持的开发工具和语言，并直接调用系统提供的SDK API。<br>比如Android原生应用就是指使用Java或Kotlin语言直接调用Android SDK开发的应用程序；而iOS原生应用就是指通过Objective-C或Swift语言直接调用iOS SDK开发的应用程序。</p>
+<p>优点：可访问平台的全部功能（GPS、 摄像头）；速度快、可以实现复杂动画、体验好。<br>缺点：维护复杂，学习成本高，不能跨平台。</p>
+<h2 id="2-跨平台之Hybrid、JavaScript-原生渲染"><a href="#2-跨平台之Hybrid、JavaScript-原生渲染" class="headerlink" title="2. 跨平台之Hybrid、JavaScript+原生渲染"></a>2. 跨平台之Hybrid、JavaScript+原生渲染</h2><p>Hybrid就是H5+原生。<br>这类框架主要原理就是将APP的一部分需要动态变动的内容通过H5来实现，通过原生的网页加载控件WebView (Android)或WKWebView（iOS）来加载。<br>h5代码只需要一次开发，就能同时在Android和iOS两个平台运行，可以减少开发成本。<br>如果一个应用的大多数功能都是H5实现的话，我们称其为Web APP 。</p>
+<p>如之前所述，原生开发可以访问平台所有功能，而混合开发中，H5代码是运行在WebView中，而WebView实质上就是一个浏览器内核，其JavaScript依然运行在一个权限受限的沙箱中，所以对于大多数系统能力都没有访问权限，如无法访问文件系统、不能使用蓝牙等。所以，对于H5不能实现的功能，都需要原生去做。而混合框架一般都会在原生代码中预先实现一些访问系统能力的API， 然后暴露给WebView以供JavaScript调用，这样一来，WebView就成为了JavaScript与原生API之间通信的桥梁，主要负责JavaScript与原生之间传递调用消息，而消息的传递必须遵守一个标准的协议，它规定了消息的格式与含义，我们把依赖于WebView的用于在JavaScript与原生之间通信并实现了某种消息传输协议的工具称之为WebView JavaScript Bridge, 简称 JsBridge，它也是混合开发框架的核心。</p>
+<p>JavaScript开发+原生渲染的方式主要优点如下：</p>
+<p>采用Web开发技术栈，社区庞大、上手快、开发成本相对较低。<br>原生渲染，性能相比H5提高很多。<br>动态化较好，支持热更新。</p>
+<p>JavaScript开发+原生渲染的方式主要不足如下：</p>
+<p>渲染时需要JavaScript和原生之间通信，在有些场景如拖动可能会因为通信频繁导致卡顿。<br>JavaScript为脚本语言，执行时需要JIT(Just In Time)，执行效率和AOT(Ahead Of Time)代码仍有差距。<br>由于渲染依赖原生控件，不同平台的控件需要单独维护，并且当系统更新时，社区控件可能会滞后；除此之外，其控件系统也会受到原生UI系统限制，例如，在Android中，手势冲突消歧规则是固定的，这在使用不同人写的控件嵌套时，手势冲突问题将会变得非常棘手。</p>
+<h2 id="3-QT、Flutter"><a href="#3-QT、Flutter" class="headerlink" title="3. QT、Flutter"></a>3. QT、Flutter</h2><p>QT是自绘UI+原生。<br>性能高，自绘引擎是直接调用系统API来绘制UI，所以性能和原生控件接近。灵活。<br>但是动态性不足，为了保证UI绘制性能，自绘UI系统一般都会采用AOT模式编译其发布包，所以应用发布后，不能像Hybrid和RN那些使用JavaScript（JIT）作为开发语言的框架那样动态下发代码。<br>开发效率低：QT使用C++作为其开发语言，而编程效率是直接会影响APP开发效率的。</p>
+<p>Flutter正是实现一套自绘引擎，并拥有一套自己的UI布局系统。Flutter并不是第一个尝试这么做的，在它之前有一个典型的代表，即大名鼎鼎的QT。</p>
+<h1 id="二：-关于Flutter"><a href="#二：-关于Flutter" class="headerlink" title="二： 关于Flutter"></a>二： 关于Flutter</h1><h2 id="1-两个概念JIT、AOT"><a href="#1-两个概念JIT、AOT" class="headerlink" title="1.两个概念JIT、AOT"></a>1.两个概念JIT、AOT</h2><p>序主要有两种运行方式：静态编译与动态解释。</p>
+<p>静态编译的程序在执行前全部被翻译为机器码，通常将这种类型称为AOT （Ahead of time）即 “提前编译”；而解释执行的则是一句一句边翻译边运行，通常将这种类型称为JIT（Just-in-time）即“即时编译”。</p>
+<p>AOT程序的典型代表是用C/C++开发的应用，它们必须在执行前编译成机器码，而JIT的代表则非常多，如JavaScript、python等，事实上，所有脚本语言都支持JIT模式。但需要注意的是JIT和AOT指的是程序运行方式，和编程语言并非强关联的，<br>有些语言既可以以JIT方式运行也可以以AOT方式运行，如Java、Python，它们可以在第一次执行时编译成中间字节码、然后在之后执行时可以直接执行字节码，也许有人会说，中间字节码并非机器码，在程序执行时仍然需要动态将字节码转为机器码，是的，这没有错，不过通常我们区分是否为AOT的标准就是看代码在执行之前是否需要编译，只要需要编译，无论其编译产物是字节码还是机器码，都属于AOT。</p>
+<h2 id="2-介绍"><a href="#2-介绍" class="headerlink" title="2.介绍"></a>2.介绍</h2><p>开发者可以通过 Dart语言开发 App，一套代码同时运行在 iOS 和 Android平台。<br>Flutter提供了丰富的组件、接口，开发者可以很快地为 Flutter添加 native扩展。同时 Flutter还使用 Native引擎渲染视图，这无疑能为用户提供良好的体验。</p>
 
       
        <hr><span style="font-style: italic;color: gray;"> 转载请注明来源，欢迎对文章中的引用来源进行考证，欢迎指出任何有错误或不够清晰的表达。可以在下面评论区评论，也可以邮件至 1394115658@qq.com </span>
